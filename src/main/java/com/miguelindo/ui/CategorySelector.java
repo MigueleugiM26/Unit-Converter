@@ -16,9 +16,9 @@ public class CategorySelector extends JPanel {
         JPanel row1 = new JPanel(new GridLayout(1, 3, 20, 0));
         row1.setMaximumSize(new Dimension(Integer.MAX_VALUE, 40));
 
-        Button lengthButton = new Button("Length");
-        Button temperatureButton = new Button("Temperature");
-        Button weightButton = new Button("Weight");
+        JButton lengthButton = new JButton("Length");
+        JButton temperatureButton = new JButton("Temperature");
+        JButton weightButton = new JButton("Weight");
 
         row1.add(lengthButton);
         row1.add(temperatureButton);

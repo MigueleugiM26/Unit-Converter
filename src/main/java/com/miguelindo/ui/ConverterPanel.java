@@ -18,6 +18,12 @@ public class ConverterPanel extends JPanel {
 
     // Helper
     private void handleConversion() {
+        if (userInput.getText().isBlank()) {
+            result.setText("");
+            resultLongText.setText("");
+            return;
+        }
+
         try {
             double input = Double.parseDouble(userInput.getText());
             ConvertibleUnit fromUnit = (ConvertibleUnit) from.getSelectedItem();
@@ -55,6 +61,7 @@ public class ConverterPanel extends JPanel {
         result = new JTextPane();
         result.setEditable(false);
         result.setFocusable(false);
+        result.setBackground(UIManager.getColor("TextField.background"));
 
         row1.add(userInput);
         row1.add(result);

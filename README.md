@@ -37,16 +37,20 @@ src/main/java/com/miguelindo/
     └── CategorySelector.java
 ```
 
-## Running
+## Building & Running
+
+Run directly with Gradle:
 ```bash
 ./gradlew run
 ```
 
-Or build a JAR and run it:
+Build a fat JAR (includes all dependencies):
 ```bash
 ./gradlew build
 java -jar build/libs/unit-converter.jar
 ```
+
+> On Windows, replace `./gradlew` with `gradlew.bat`
 
 ## Design Notes
 

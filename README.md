@@ -12,6 +12,10 @@ Supports Length, Weight, and Temperature conversions with a live result display.
 - Correct pluralization per unit (Foot → Feet, etc.)
 - Clean number formatting — no unnecessary decimal places
 
+## Preview
+
+![Unit Converter](assets/1.png)
+
 ## Tech Stack
 
 - Java 23

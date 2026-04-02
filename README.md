@@ -41,6 +41,11 @@ src/main/java/com/miguelindo/
     └── CategorySelector.java
 ```
 
+## Download
+
+Grab the latest JAR from [Releases](https://github.com/MigueleugiM26/Unit-Converter/releases)
+and run it with `java -jar unit-converter.jar`
+
 ## Building & Running
 
 Run directly with Gradle:
